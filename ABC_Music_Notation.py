@@ -9,7 +9,6 @@ Code is based on / inspired by libanki's LaTeX integration and Andreas Klauer's 
 '''
 
 # --- Imports: ---
-import sys##DEBUG
 from anki.hooks import addHook, wrap
 from anki.lang import _
 from anki.utils import call, checksum, stripHTML, tmpfile
@@ -247,7 +246,6 @@ def profileLoaded():
     '''Monkey patch the addon manager'''
     getTemplate(None, "") # creates default.abc if does not exist
     mw.addonManager.rebuildAddonsMenu = wrap(mw.addonManager.rebuildAddonsMenu, abcMenu)
-    ##mw.addonManager.rebuildAddonsMenu()
 
 addHook("profileLoaded", profileLoaded)
 
