@@ -109,7 +109,7 @@ def addtemplate():
     mw.addonManager.onEdit(tpl_file(name))
 
 def abcMenu():
-    '''Extend the addon menu with ABC template entries'''
+    '''Create "abc" menu and extend it with ABC template entries'''
     lm = mw.form.menuTools.addMenu(QIcon(os.path.join(abcDir,"abc.png")),"abc")
 
     a = QAction(_("Add template..."), mw)
