@@ -25,7 +25,7 @@ Alternatively, you can create dedicated fields, e.g. <i>front-abc</i> or <i>back
 With <i>abc</i> in the field name, it will act as if the entire field content was wrapped in <code>[abc][/abc]</code> tags.
 
 This addon allows the creation of custom templates (see below), and specifying which template to use:
-<code>[abc=default]c d e[/abc]</code>
+<code>[abc=default]c d e[/abc]</code><br/>
 <code>[abc=yourtemplate]c d e[/abc]</code>
 
 The name of the default template is <i>default</i>, so <code>[abc=default]</code> is identical to <code>[abc]</code>.
@@ -51,12 +51,12 @@ The <b>addons/abc</b> directory holds template files for ABC Notation. Templates
 Please restart Anki when you change templates.
 
 The default template is <b>default.abc</b> and used by:
-<code>[abc]code[/abc]</code>
-<code>[abc=default]code[/abc]</code>
+<code>[abc]code[/abc]</code><br/>
+<code>[abc=default]code[/abc]</code><br/>
 <i>somefield-abc</i>
 
 All other templates have to be specified by name:
-<code>[abc=templatename]code[/abc]</code>
+<code>[abc=templatename]code[/abc]</code><br/>
 <i>somefield-abc-templatename</i>
 
 In the template, <code>%ANKI%</code> will be replaced with code. Multiple codes can be specified, by separating them with <code>%%%</code>:
