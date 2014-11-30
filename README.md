@@ -60,25 +60,21 @@ All other templates have to be specified by name:<br/>
 <i>somefield-abc-templatename</i>
 
 In the template, <code>%ANKI%</code> will be replaced with code. Multiple codes can be specified, by separating them with <code>%%%</code>:
-<pre>
-[abc]
+<pre>[abc]
 code1
 %%%
 code2
-[/abc]
-</pre>
+[/abc]</pre>
 
 In the template, the first occurrence of <code>%ANKI%</code> will be replaced with <code>code1</code>, the second occurrence of <code>%ANKI%</code> with <code>code2</code>.
 
 The number of <code>%ANKI%</code> in the template has to match the number of codes used for this template always, otherwise the remaining occurrences of <code>%ANKI%</code> will not be replaced, or the surplus specified codes will not be inserted.
 
 The default template looks like this:
-<pre>
-X:1
+<pre>X:1
 M:4/4
 L:1/4
 K:C
-%ANKI%
-</pre>
+%ANKI%</pre>
 
 Please refer to the ABC Notation homepage and documentation for details on how to write ABC Notation code.
