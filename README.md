@@ -35,7 +35,7 @@ You can also use templates in <i>abc</i> fields by giving them names like <i>fro
 Mobile/Web support
 ------------------
 
-Anki addons are desktop only, so by default, images won't appear on other platforms since those platforms won't know what to make of a <code>[abc]</code> tag or how to treat a <i>abc</i> field.
+Anki addons are desktop only, so by default, sounds won't appear on other platforms since those platforms won't know what to make of a <code>[abc]</code> tag or how to treat a <i>abc</i> field.
 
 However, if you are using <i>abc</i> fields, and for each field create another field called <i>abcsnd</i>, the desktop addon will automatically fill it with the <code>[sound]</code> tag.
 
