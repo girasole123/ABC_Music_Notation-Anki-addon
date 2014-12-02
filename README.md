@@ -77,4 +77,21 @@ L:1/4
 K:C
 %ANKI%</pre>
 
+If you would like write your own header, you can choose the <i>void</i> template (file template is <b>void.abc</b> and contains only <code>%ANKI%</code>):
+<pre>[abc=void]
+X:1
+T:My own header's title
+M:6/8
+L:1/8
+Q:C8=30
+K:F
+|: ddc B2 A | AGG F2 D | ddc B2 A | GGF G3 :|
+|: AAA c2 c | ccc d2 d | ddc B2 A | GGF G3 :|
+[/abc]</pre>
+or
+<i>somefield-abc-void</i>
+
+
 Please refer to the ABC Notation homepage and documentation for details on how to write ABC Notation code.
+
+You can also use <code>%%MIDI</code> commands (or <code>[I:MIDI=]</code> inline equivalents) which are particular to the <b>abc2midi</b> program, e.g. <code>%%MIDI drum</code> command (refer to the Guide to Advanced Futures of <b>abc2midi</b>: <a href="http://ifdo.pugmarks.com/~seymour/runabc/abcguide/abc2midi_guide.html" rel="nofollow">http://ifdo.pugmarks.com/~seymour/runabc/abcguide/abc2midi_guide.html</a>).
