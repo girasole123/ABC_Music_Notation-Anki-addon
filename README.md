@@ -3,7 +3,7 @@ ABC Music Notation (music integration addon for Anki 2)
 
 ABC Notation is a system designed to notate music in plain text format. <a href="http://abcnotation.com" rel="nofollow">http://abcnotation.com</a>
 
-With this addon, you can add music snippets to your deck, wrapped in <code>[abc]c d e[/abc]</code> tags, and they will be converted to a MP3 music file.
+With this addon, you can add music snippets to your deck, wrapped in <code>[abc]c d e[/abc]</code> tags, and they will be converted to a MP3 music files.
 
 For this addon to work, you have to install <b>abc2midi</b>, <b>timidity</b> and <b>lame</b> first and they need to be in your <i>PATH</i>.
 
