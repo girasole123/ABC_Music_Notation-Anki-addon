@@ -3,8 +3,7 @@
 # License: GNU AGPL, version 3 or later; http://www.gnu.org/licenses/agpl.html
 
 '''
-ABC notation to MP3, music integration addon for Anki 2.
-
+ABC notation to MP3, music integration addon for Anki 2.0.x
 Code is based on / inspired by libanki's LaTeX integration and Andreas Klauer's LilyPond integration.
 '''
 
